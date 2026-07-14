@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UI/UX &amp; Graphic Designer Portfolio — Karunya</title>
+  <meta name="description"
+    content="Premium portfolio of Karunya — UI/UX design, branding, graphic design, and frontend development." />
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Import Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="globals.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= SITE NAVIGATION ================= -->
+  <nav class="site-nav" id="siteNav">
+    <div class="site-nav__inner">
+      <a href="#top" class="site-nav__logo">KARUNYA</a>
+      <ul class="site-nav__links" id="siteNavLinks">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#case-studies">Case study</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" id="resumeLink">Resume</a></li>
+      </ul>
+      <button class="site-nav__toggle" id="siteNavToggle" aria-label="Toggle navigation" aria-expanded="false"
+        aria-controls="siteNavLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero" id="top">
+    <div class="hero__overlay"></div>
+    <img class="hero__photo" src="pic/top.jpg" alt="Hero Background Image" />
+    <div class="hero__content">
+      <div class="hero__eyebrow">UI/UX &amp; Graphic Designer</div>
+      <h1 class="hero__title">PORTFOLIO</h1>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ME SECTION ================= -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="about__grid-new">
+        
+        <!-- Left Side: Photo + vertical text design + dotted grid decorations -->
+        <div class="about__left-col scroll-reveal">
+          <div class="about__photo-wrapper">
+            <!-- Rotated Vertical Text and Line badge -->
+            <div class="about__badge-vertical">
+              <span class="about__badge-text">DESIGN</span>
+              <div class="about__badge-line-wrap">
+                <div class="about__badge-dot"></div>
+                <div class="about__badge-line"></div>
+                <div class="about__badge-dot"></div>
+              </div>
+            </div>
+            <!-- Dotted pattern decorative overlay -->
+            <div class="about__decor-dots"></div>
+            <!-- The Photo Frame -->
+            <div class="about__photo-frame">
+              <img class="about__portrait-img" src="pic/image 48.png" alt="Portrait of Karunya" />
+              <!-- Accent border overlays -->
+              <div class="about__frame-edge about__frame-edge--left"></div>
+              <div class="about__frame-edge about__frame-edge--right"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Content -->
+        <div class="about__right-col scroll-reveal">
+          <h1 class="about__header-title">UIUX &amp;<br>GRAPHIC DESIGNER</h1>
+          <p class="about__header-tagline">Crafting digital experiences with precision and soul.</p>
+          <div class="about__title-underline"></div>
+
+          <!-- ABOUT ME Sub block -->
+          <div class="about__sub-block">
+            <div class="about__sub-header">
+              <div class="about__sub-icon">
+                <!-- Circular user profile icon svg -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="8" r="4"/>
+                  <path d="M6 21v-2a4 4 0 0 1 8 0v2"/>
+                </svg>
+              </div>
+              <h3 class="about__sub-title">ABOUT ME</h3>
+              <div class="about__sub-line">
+                <div class="about__sub-line-dot"></div>
+              </div>
+            </div>
+            <p class="about__sub-text">
+              I'm ]KARUNYA HARINEE k,a B.Tech Artificial Intelligence and Data Science (AI &amp; DS) student with a strong passion for UI/UX
+              Design and Graphic Design. I enjoy transforming ideas into visually engaging and user-centered digital
+              experiences that combine creativity with functionality.
+            </p>
+          </div>
+
+          <!-- WHAT I DO Sub block -->
+          <div class="about__sub-block">
+            <div class="about__sub-header">
+              <div class="about__sub-icon">
+                <!-- Circular pencil/drafting icon svg -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22l-4-4L18 4l4 4L12 22z"/>
+                  <path d="M16 6l2 2"/>
+                </svg>
+              </div>
+              <h3 class="about__sub-title">WHAT I DO</h3>
+              <div class="about__sub-line">
+                <div class="about__sub-line-dot"></div>
+              </div>
+            </div>
+            <p class="about__sub-text">
+              My work includes logo design, branding, poster design, mobile app UI, and responsive website design. I focus
+              on creating clean, modern, and intuitive designs while continuously improving my skills in design systems,
+              user research, prototyping, and visual communication.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Socials row at the bottom of the section -->
+      <div class="about__socials-section scroll-reveal">
+        <div class="about__socials-header">
+          <span class="about__socials-title">SOCIALS</span>
+          <div class="about__socials-line">
+            <div class="about__socials-line-dot"></div>
+          </div>
+        </div>
+        <div class="about__socials-icons-grid">
+          <!-- LinkedIn SVG -->
+          <a class="about__social-icon-btn" href="https://www.linkedin.com/in/karunyaharinee/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 .784.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+          <!-- GitHub SVG -->
+          <a class="about__social-icon-btn" href="https://github.com/karunyakumar29" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+          <!-- Instagram SVG -->
+          <a class="about__social-icon-btn" href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MOVING SKILLS MARQUEE ================= -->
+  <section class="skills-marquee-section">
+    <div class="skills-marquee-label">
+      <span class="section-eyebrow"> Tools</span>
+    </div>
+    <div class="skills-marquee" aria-label="Scrolling skills strip">
+      <div class="skills-marquee__track">
+        <!-- Set 1 -->
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M8.5 2A2.75 2.75 0 0 0 5.75 4.75 2.75 2.75 0 0 0 8.5 7.5h2.75V2H8.5Z" fill="currentColor" />
+              <path d="M11.25 2h2.75a2.75 2.75 0 1 1 0 5.5h-2.75V2Z" fill="currentColor" opacity=".7" />
+              <path d="M5.75 10.25A2.75 2.75 0 0 1 8.5 7.5h2.75v5.5H8.5a2.75 2.75 0 0 1-2.75-2.75Z" fill="currentColor"
+                opacity=".85" />
+              <path d="M11.25 7.5h2.75a2.75 2.75 0 1 1 0 5.5h-2.75V7.5Z" fill="currentColor" opacity=".5" />
+              <path d="M5.75 15.75A2.75 2.75 0 0 1 8.5 13h2.75v2.75a2.75 2.75 0 1 1-5.5 0Z" fill="currentColor"
+                opacity=".6" />
+            </svg>
+          </span>
+          <span class="skill-item__name">Figma</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="1.5" y="3" width="21" height="18" rx="2.4" fill="currentColor" opacity=".15" /><text x="12"
+                y="16.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="9.5"
+                fill="currentColor">Ps</text>
+            </svg>
+          </span>
+          <span class="skill-item__name">Photoshop</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="1.5" y="3" width="21" height="18" rx="2.4" fill="currentColor" opacity=".15" /><text x="12"
+                y="16.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="9.5"
+                fill="currentColor">Ai</text>
+            </svg>
+          </span>
+          <span class="skill-item__name">Illustrator</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="1.5" y="3" width="21" height="18" rx="2.4" fill="currentColor" opacity=".15" /><text x="12"
+                y="16.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="9"
+                fill="currentColor">Cv</text>
+            </svg>
+          </span>
+          <span class="skill-item__name">Canva</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M4 2h16v6.4H12L4 2Z" fill="currentColor" opacity=".7" />
+              <path d="M4 8.4h8l8 8.4H4V8.4Z" fill="currentColor" opacity=".9" />
+              <path d="M4 16.8h8V22l-8-5.2Z" fill="currentColor" />
+            </svg>
+          </span>
+          <span class="skill-item__name">Framer</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="4" fill="currentColor" opacity=".8" />
+              <path d="M12 2v4M12 18v4M2 12h4M18 12h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                opacity=".5" />
+              <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" fill="none" opacity=".3" />
+            </svg>
+          </span>
+          <span class="skill-item__name">Blender</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 2h18l-1.64 18.4L12 22l-7.36-1.6L3 2Z" fill="currentColor" opacity=".8" />
+              <path d="M12 9.9H8.9l-.2-2.3H12V5.4H6.3l.55 6.1H12V9.9Z" fill="white" opacity=".7" />
+              <path d="M12 15.85 9.4 15.1l-.16-1.85H7l.3 3.35 4.7 1.3v-2.05Z" fill="white" opacity=".7" />
+            </svg>
+          </span>
+          <span class="skill-item__name">HTML5</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 2h18l-1.64 18.4L12 22l-7.36-1.6L3 2Z" fill="currentColor" opacity=".8" />
+              <path d="M12 9.85H8.75l-.18-2.05H12V5.6H6.35l.5 5.5H12V9.85Z" fill="white" opacity=".7" />
+              <path d="M12 15.75 9.5 15.05l-.15-1.7H7.1l.28 3.15 4.62 1.3v-2.05Z" fill="white" opacity=".7" />
+            </svg>
+          </span>
+          <span class="skill-item__name">CSS3</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="1.5" y="1.5" width="21" height="21" fill="currentColor" opacity=".15" /><text x="12" y="16.3"
+                text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="9"
+                fill="currentColor">JS</text>
+            </svg>
+          </span>
+          <span class="skill-item__name">JavaScript</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none" opacity=".4" />
+              <path d="M8 12l3 3 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" fill="none" />
+            </svg>
+          </span>
+          <span class="skill-item__name">Git</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.48 2 2 6.58 2 12.2c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49v-1.9c-2.78.62-3.37-1.36-3.37-1.36-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.36 1.12 2.94.86.09-.66.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.27 2.75 1.05a9.36 9.36 0 0 1 5 0c1.9-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.02 10.02 0 0 0 22 12.2C22 6.58 17.52 2 12 2Z"
+                fill="currentColor" />
+            </svg>
+          </span>
+          <span class="skill-item__name">GitHub</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"
+                opacity=".4" />
+              <path d="M8 9l-3 3 3 3M16 9l3 3-3 3M11 17l2-10" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" fill="none" />
+            </svg>
+          </span>
+          <span class="skill-item__name">VS Code</span>
+        </div>
+        <!-- Duplicated Set for seamless loop -->
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M8.5 2A2.75 2.75 0 0 0 5.75 4.75 2.75 2.75 0 0 0 8.5 7.5h2.75V2H8.5Z" fill="currentColor" />
+              <path d="M11.25 2h2.75a2.75 2.75 0 1 1 0 5.5h-2.75V2Z" fill="currentColor" opacity=".7" />
+              <path d="M5.75 10.25A2.75 2.75 0 0 1 8.5 7.5h2.75v5.5H8.5a2.75 2.75 0 0 1-2.75-2.75Z" fill="currentColor"
+                opacity=".85" />
+              <path d="M11.25 7.5h2.75a2.75 2.75 0 1 1 0 5.5h-2.75V7.5Z" fill="currentColor" opacity=".5" />
+              <path d="M5.75 15.75A2.75 2.75 0 0 1 8.5 13h2.75v2.75a2.75 2.75 0 1 1-5.5 0Z" fill="currentColor"
+                opacity=".6" />
+            </svg>
+          </span>
+          <span class="skill-item__name">Figma</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="1.5" y="3" width="21" height="18" rx="2.4" fill="currentColor" opacity=".15" /><text x="12"
+                y="16.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="9.5"
+                fill="currentColor">Ps</text>
+            </svg>
+          </span>
+          <span class="skill-item__name">Photoshop</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="1.5" y="3" width="21" height="18" rx="2.4" fill="currentColor" opacity=".15" /><text x="12"
+                y="16.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="9.5"
+                fill="currentColor">Ai</text>
+            </svg>
+          </span>
+          <span class="skill-item__name">Illustrator</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="1.5" y="3" width="21" height="18" rx="2.4" fill="currentColor" opacity=".15" /><text x="12"
+                y="16.5" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="9"
+                fill="currentColor">Cv</text>
+            </svg>
+          </span>
+          <span class="skill-item__name">Canva</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M4 2h16v6.4H12L4 2Z" fill="currentColor" opacity=".7" />
+              <path d="M4 8.4h8l8 8.4H4V8.4Z" fill="currentColor" opacity=".9" />
+              <path d="M4 16.8h8V22l-8-5.2Z" fill="currentColor" />
+            </svg>
+          </span>
+          <span class="skill-item__name">Framer</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="4" fill="currentColor" opacity=".8" />
+              <path d="M12 2v4M12 18v4M2 12h4M18 12h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                opacity=".5" />
+              <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" fill="none" opacity=".3" />
+            </svg>
+          </span>
+          <span class="skill-item__name">Blender</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 2h18l-1.64 18.4L12 22l-7.36-1.6L3 2Z" fill="currentColor" opacity=".8" />
+              <path d="M12 9.9H8.9l-.2-2.3H12V5.4H6.3l.55 6.1H12V9.9Z" fill="white" opacity=".7" />
+              <path d="M12 15.85 9.4 15.1l-.16-1.85H7l.3 3.35 4.7 1.3v-2.05Z" fill="white" opacity=".7" />
+            </svg>
+          </span>
+          <span class="skill-item__name">HTML5</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 2h18l-1.64 18.4L12 22l-7.36-1.6L3 2Z" fill="currentColor" opacity=".8" />
+              <path d="M12 9.85H8.75l-.18-2.05H12V5.6H6.35l.5 5.5H12V9.85Z" fill="white" opacity=".7" />
+              <path d="M12 15.75 9.5 15.05l-.15-1.7H7.1l.28 3.15 4.62 1.3v-2.05Z" fill="white" opacity=".7" />
+            </svg>
+          </span>
+          <span class="skill-item__name">CSS3</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="1.5" y="1.5" width="21" height="21" fill="currentColor" opacity=".15" /><text x="12" y="16.3"
+                text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="9"
+                fill="currentColor">JS</text>
+            </svg>
+          </span>
+          <span class="skill-item__name">JavaScript</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none" opacity=".4" />
+              <path d="M8 12l3 3 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" fill="none" />
+            </svg>
+          </span>
+          <span class="skill-item__name">Git</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.48 2 2 6.58 2 12.2c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49v-1.9c-2.78.62-3.37-1.36-3.37-1.36-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.36 1.12 2.94.86.09-.66.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.27 2.75 1.05a9.36 9.36 0 0 1 5 0c1.9-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.02 10.02 0 0 0 22 12.2C22 6.58 17.52 2 12 2Z"
+                fill="currentColor" />
+            </svg>
+          </span>
+          <span class="skill-item__name">GitHub</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-item__icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"
+                opacity=".4" />
+              <path d="M8 9l-3 3 3 3M16 9l3 3-3 3M11 17l2-10" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" fill="none" />
+            </svg>
+          </span>
+          <span class="skill-item__name">VS Code</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TABLE OF CONTENTS SECTION ================= -->
+  <section class="contents-section" id="contents">
+    <div class="wrap">
+      <div class="contents__header scroll-reveal">
+        <span class="section-eyebrow">Index</span>
+        <h2 class="contents__title">Table Of<br><em>Contents</em></h2>
+      </div>
+      <div class="contents__grid">
+        <div class="contents-card scroll-reveal reveal-delay-1">
+          <span class="contents-card__num">01</span>
+          <div class="contents-card__body">
+            <h3 class="contents-card__title">Web design</h3>
+            <p class="contents-card__sub"><em>Landing pages &amp; E commerce</em></p>
+          </div>
+          <div class="contents-card__arrow">→</div>
+        </div>
+        <div class="contents-card scroll-reveal reveal-delay-2">
+          <span class="contents-card__num">02</span>
+          <div class="contents-card__body">
+            <h3 class="contents-card__title">App Design</h3>
+            <p class="contents-card__sub"><em>Android &amp; User Experience</em></p>
+          </div>
+          <div class="contents-card__arrow">→</div>
+        </div>
+        <div class="contents-card scroll-reveal reveal-delay-3">
+          <span class="contents-card__num">03</span>
+          <div class="contents-card__body">
+            <h3 class="contents-card__title">Brandding</h3>
+            <p class="contents-card__sub"><em>Logo &amp; Brand Identity</em></p>
+          </div>
+          <div class="contents-card__arrow">→</div>
+        </div>
+        <div class="contents-card scroll-reveal reveal-delay-4">
+          <span class="contents-card__num">04</span>
+          <div class="contents-card__body">
+            <h3 class="contents-card__title">Graphic Design</h3>
+            <p class="contents-card__sub"><em>Posters &amp; Banners</em></p>
+          </div>
+          <div class="contents-card__arrow">→</div>
+        </div>
+        <div class="contents-card scroll-reveal reveal-delay-1">
+          <span class="contents-card__num">05</span>
+          <div class="contents-card__body">
+            <h3 class="contents-card__title">Social Media</h3>
+            <p class="contents-card__sub"><em> Instagram Posts  &amp; Advertisements</em></p>
+          </div>
+          <div class="contents-card__arrow">→</div>
+        </div>
+        <div class="contents-card scroll-reveal reveal-delay-2">
+          <span class="contents-card__num">06</span>
+          <div class="contents-card__body">
+            <h3 class="contents-card__title">Frontend Development</h3>
+            <p class="contents-card__sub"><em>HTML,CSS  &amp; JavaScript </em></p>
+          </div>
+          <div class="contents-card__arrow">→</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ================= WHAT I DO SECTION ================= -->
+  <section class="whatido" id="what-i-do">
+    <div class="wrap">
+      <span class="section-eyebrow">Process</span>
+      <h2 class="section-label">WHAT I DO</h2>
+      <div class="whatido__container">
+        <!-- Dotted connection line -->
+        <svg class="dotted-path-svg">
+          <path id="dottedPath" fill="none" stroke="#9C3D45" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" stroke-dasharray="6,8" />
+        </svg>
+
+        <div class="whatido__grid">
+          <div class="whatido__card scroll-reveal reveal-delay-1">
+            <div class="whatido__card-bullet"></div>
+            <div class="whatido__card-inner whatido__card-inner--define">
+              <h3>Discover</h3>
+              <p>I start by understanding the project goals, target audience, and brand identity. Through research and inspiration, I identify the best creative direction before beginning the design process.</p>
+            </div>
+          </div>
+
+          <div class="whatido__card scroll-reveal reveal-delay-2">
+            <div class="whatido__card-bullet"></div>
+            <div class="whatido__card-inner whatido__card-inner--interface">
+              <h3>Ideate</h3>
+              <p>I brainstorm ideas, sketch concepts, create mood boards, and explore layouts, colors, typography, and visual styles to develop effective design solutions.</p>
+            </div>
+          </div>
+
+          <div class="whatido__card scroll-reveal reveal-delay-3">
+            <div class="whatido__card-bullet"></div>
+            <div class="whatido__card-inner whatido__card-inner--visuals">
+              <h3>Design</h3>
+              <p>I transform concepts into polished visuals by focusing on usability, aesthetics, and consistency. Whether it's a mobile app, website, branding, or marketing material, every detail is crafted with purpose.</p>
+            </div>
+          </div>
+
+          <div class="whatido__card scroll-reveal reveal-delay-4">
+            <div class="whatido__card-bullet"></div>
+            <div class="whatido__card-inner whatido__card-inner--identity">
+              <h3>Deliver</h3>
+              <p>I review, test, and refine every design based on feedback to ensure a high-quality final outcome. The completed files are optimized and delivered for both digital and print platforms.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS SECTION ================= -->
+  <section class="projects" id="projects">
+    <div class="wrap">
+      <span class="section-eyebrow">Selected Work</span>
+      <h2 class="section-label">PROJECTS</h2>
+      <div class="projects__grid">
+
+        <!-- PROJECT 1 -->
+        <article class="project-card scroll-reveal">
+          <div class="project-card__img-wrap">
+            <img src="pic/dog.png" alt="Kinetik Digital Mockup" />
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__meta">
+              <span class="project-card__tag">2023 / Website</span>
+            </div>
+            <h3 class="project-card__title">PAWS OF HOPE</h3>
+            <p class="project-card__desc">Designed a modern and responsive pet adoption platform that helps users
+              discover and adopt rescue dogs through an intuitive, visually engaging interface. The design emphasizes
+              trust, accessibility, and ease of navigation using a warm color palette, rounded UI components, and
+              responsive layouts across desktop and mobile devices.</p>
+            <div class="project-card__tech">
+              <span>Figma</span>
+              <span>Flutter</span>
+            </div>
+            <div class="project-card__actions">
+              <a href="https://my-web-e1rr.vercel.app/" class="project-card__btn project-card__btn--primary">Live Demo
+                →</a>
+              <a href="https://github.com/karunyakumar29/my-web" class="project-card__btn project-card__btn--ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="project-card scroll-reveal">
+          <div class="project-card__img-wrap">
+            <img src="pic/mcq.png" alt="Test Pro Academy Mockup" />
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__meta">
+              <span class="project-card__tag">2024 / Website</span>
+            </div>
+            <h3 class="project-card__title">TEST PRO ACADEMY</h3>
+            <p class="project-card__desc">Developed a responsive web application that helps 10th-grade students prepare
+              for public examinations through interactive multiple-choice quizzes. The platform includes all five core
+              subjects, instant score calculation, automatic grading, and detailed performance feedback to help students
+              evaluate their learning progress.</p>
+            <div class="project-card__tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-card__actions">
+              <a href="https://test-pro-accademy.vercel.app/" class="project-card__btn project-card__btn--primary">Live
+                Demo →</a>
+              <a href="https://github.com/karunyakumar29/test-pro-accademy" class="project-card__btn project-card__btn--ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="project-card scroll-reveal">
+          <div class="project-card__img-wrap">
+            <img src="pic/b.png" alt="AcadPro Mockup" />
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__meta">
+              <span class="project-card__tag">2025 / Website</span>
+            </div>
+            <h3 class="project-card__title">ACADPRO</h3>
+            <p class="project-card__desc">Developed a responsive web application that streamlines project and assignment
+              management for students and faculty. The platform allows students to submit assignments and projects
+              online, monitor submission deadlines, and communicate directly with staff through dedicated chat
+              sections.</p>
+            <div class="project-card__tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-card__actions">
+              <a href="https://my-app-omega-puce-55.vercel.app/"
+                class="project-card__btn project-card__btn--primary">Live Demo →</a>
+              <a href="https://github.com/karunyakumar29/my.app" class="project-card__btn project-card__btn--ghost">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <main class="portfolio-container">
+
+    <!-- APP DESIGN SECTION (POPPY) -->
+    <section class="cs-section" id="case-studies">
+      <div class="cs-split">
+        <div class="cs-info">
+          <span class="section-eyebrow">Case Study</span>
+          <h2 class="cs-title">
+            App <span class="cs-cursive">Design</span>
+          </h2>
+          <h3 class="cs-client">TransitGo</h3>
+          <p class="cs-subtitle">BUS TRACKING APP</p>
+          <p class="cs-desc">
+           TransitGo is a modern government public transportation application that enables commuters to track buses in real time, search routes, purchase digital tickets after boarding, and receive live travel updates. The app is designed to reduce uncertainty, eliminate paper tickets, and make public transport more efficient and accessible.
+          </p>
+          <div class="cs-features">
+            <h4>Key Features</h4>
+            <ul>
+              <li><strong>Minimal light UI</strong></li>
+              <li><strong>Live Bus Tracking</strong></li>
+              <li><strong>Smart Bus Search</strong></li>
+              <li><strong>Secure Cashless Payments</strong></li>
+              <li><strong>AI Route Planner</strong></li>
+              <li><strong>Smart Travel Notifications</strong></li>
+            </ul>
+          </div>
+          <a href="#" class="cs-view-btn">View Design →</a>
+        </div>
+
+        <div class="cs-visual">
+          <div class="hero-mockup-platform">
+            <img class="hero-display-img"
+              src="pic/top.png"
+              alt="Poppy App Mockup">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRID MASONRY SECTION -->
+    <section class="cs-section grid-section">
+      <h2 class="cs-title">
+        Main <span class="cs-cursive">Screens</span>
+      </h2>
+      <div class="screens-masonry">
+        <div class="screen-card"><img src="pic/Splash Screen.png" alt="Splash Screen">
+        </div>
+        <div class="screen-card"><img src="pic/login.png"
+            alt="Onboarding Screen"></div>
+        <div class="screen-card"><img src="pic/Home Dashboard.png">
+        </div>
+        <div class="screen-card"><img src="pic/Search Results.png" alt="Home Screen">
+        </div>
+        <div class="screen-card"><img src="pic/AI Route Planner.png" alt="Movie Screen">
+        </div>
+        <div class="screen-card"><img src="pic/Buy Ticket.png" alt="TV Screen"></div>
+        <div class="screen-card"><img src="pic/Ticket Success.png"
+            alt="Categories Screen"></div>
+        <div class="screen-card"><img src="pic/Emergency SOS.png"
+            alt="Profile Screen"></div>
+        <div class="screen-card"><img src="pic/Bus Details.png"
+            alt="Checkout Screen"></div>
+        <div class="screen-card"><img src="pic/Profile.png"
+            alt="Downloads Screen"></div>
+      </div>
+    </section>
+
+    <!-- WEB DESIGN SECTION (EPIC GAMES) -->
+    <section class="cs-section">
+      <div class="cs-split">
+        <div class="cs-info">
+          <span class="section-eyebrow">Case Study</span>
+          <h2 class="cs-title">
+            Web <span class="cs-cursive">Design</span>
+          </h2>
+          <h3 class="cs-client">Vale Watch</h3>
+          <p class="cs-subtitle">Luxury Watch E-Commerce Website</p>
+          <p class="cs-desc">
+            VALE is a premium luxury watch e-commerce website designed to deliver an immersive online shopping experience. The website combines elegant visuals, smooth animations, and detailed product storytelling to showcase a collection of high-end watches. The goal is to create a digital experience that reflects the craftsmanship and exclusivity of the VALE brand while making product discovery and purchasing effortless.
+          </p>
+          <div class="cs-features">
+            <h4>Key Features</h4>
+            <ul>
+              <li>Modern Interface</li>
+              <li>Interactive Watch Gallery</li>
+              <li>Multiple Color Variants</li>
+              <li>Detailed Product Specifications</li>
+              <li>Seamless Shopping Experience</li>
+              <li>Responsive Layout</li>
+            </ul>
+          </div>
+          <a href="#" class="cs-view-btn">View Design →</a>
+        </div>
+
+        <div class="cs-visual">
+          <div class="laptop-container">
+            <div class="laptop-screen-bezel">
+              <div class="laptop-scroll-viewport">
+                <img id="web-mockup-asset" class="laptop-scroll-img"
+                  src="pic/Desktop - 13.png"
+                  alt="Epic Games Redesign Showcase">
+              </div>
+            </div>
+            <div class="laptop-base-stand"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= POSTER GALLERY SECTION (CAROUSEL) ================= -->
+  <section class="posters-section" id="posters">
+    <div class="wrap">
+      <div class="posters__container scroll-reveal">
+
+        <div class="posters__header">
+          <div class="posters__header-text">
+            <span class="section-eyebrow">Gallery</span>
+            <h2 class="section-label">POSTER SHOWCASE</h2>
+            <p class="posters__header-desc">A selection of typographic, layout, and visual design posters. Drag or
+              navigate to explore the full collection.</p>
+          </div>
+          <div class="posters__nav">
+            <button class="posters__nav-btn" id="prevPoster" aria-label="Previous Poster">
+              <svg viewBox="0 0 24 24">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <button class="posters__nav-btn" id="nextPoster" aria-label="Next Poster">
+              <svg viewBox="0 0 24 24">
+                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="posters__viewport" id="postersViewport">
+          <div class="posters__track" id="postersTrack">
+
+            <div class="poster-slide">
+              <img src="pic/load.png" alt="Temporal Shift Poster Design" />
+              <div class="poster-slide__overlay">
+                <span>01 / Temporal Shift</span>
+              </div>
+            </div>
+
+            <div class="poster-slide">
+              <img src="pic/Frame 8 (1).png" alt="Graphic Layout Poster" />
+              <div class="poster-slide__overlay">
+                <span>02 / Grid Geometry</span>
+              </div>
+            </div>
+
+            <div class="poster-slide">
+              <img src="pic/Frame 42 (1).png" alt="Retro Typography Poster" />
+              <div class="poster-slide__overlay">
+                <span>03 / Type Texture</span>
+              </div>
+            </div>
+
+            <div class="poster-slide">
+              <img src="pic/self intro.png" alt="Visual Composition Art" />
+              <div class="poster-slide__overlay">
+                <span>04 / Form Contrast</span>
+              </div>
+            </div>
+
+            <div class="poster-slide">
+              <img src="pic/image 30.png" alt="Conceptual Space Poster" />
+              <div class="poster-slide__overlay">
+                <span>05 / Shift Dimension</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LOGO & BRANDING SECTION ================= -->
+  <section class="logos-section" id="logos">
+    <div class="wrap">
+      <span class="section-eyebrow">Branding</span>
+      <h2 class="section-label">LOGOS &amp; BRANDING</h2>
+      <p class="logos-section__intro">
+        A professional overview detailing three custom visual identity frameworks. Each project explains the design
+        concept, typographic decisions, color choice rationale, and strategic process behind the mark.
+      </p>
+
+      <!-- BRAND 1 -->
+      <div class="branding-row scroll-reveal">
+        <div class="branding-row__visuals">
+          <div class="branding-row__main-logo">
+            <img src="pic/coffee(1).png" alt="Artisanal Coffee Mark" />
+          </div>
+          <div class="branding-row__collage">
+            <div class="branding-row__collage-item"><img src="pic/image 61.png" alt="Coffee Cup Mockup" /></div>
+            <div class="branding-row__collage-item"><img src="pic/image 59.png" alt="Packaging Showcase" /></div>
+            <div class="branding-row__collage-item"><img src="pic/image 60.png" alt="Storefront Signage" /></div>
+          </div>
+        </div>
+        <div class="branding-row__details">
+          <h3>01 / Artisanal Coffee Mark</h3>
+          <p class="branding-row__text">
+            For this brand identity, the goal was to communicate warmth and handcrafted quality. The mark merges organic
+            geometries with custom hand-lettered details. We wanted to escape standard corporate layouts to capture an
+            authentic, independent coffee culture. The process started with hand sketches before vector refinement,
+            ensuring the line quality retained a tactile feel.
+          </p>
+          <div class="branding-row__specs">
+            <div class="branding-row__spec-item">
+              <h4>Color Palette</h4>
+              <p>Warm Espresso (#3c2517), Cream, and subtle accents of organic Ochre.</p>
+            </div>
+            <div class="branding-row__spec-item">
+              <h4>Typography</h4>
+              <p>Custom hand-drawn letters combined with Space Mono as a functional subhead.</p>
+            </div>
+            <div class="branding-row__spec-item">
+              <h4>Design Thinking</h4>
+              <p>Retaining natural irregularities to emphasize artisanal and handcrafted values.</p>
+            </div>
+            <div class="branding-row__spec-item">
+              <h4>Process</h4>
+              <p>Hand sketching, digital plotting, packaging print checks, and scale testing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BRAND 2 -->
+      <div class="branding-row branding-row--alternate scroll-reveal">
+        <div class="branding-row__details">
+          <h3>02 / Modern Package Mark</h3>
+          <p class="branding-row__text">
+            Designed for a lifestyle packaging line, this visual system emphasizes clean geometry and structural
+            legibility. The mark is built with sharp angles and clean borders, allowing it to scale effortlessly down to
+            tiny tags or up to shipping containers. We balanced the minimalism by using soft color systems, giving the
+            mark an approachable and modern feel.
+          </p>
+          <div class="branding-row__specs">
+            <div class="branding-row__spec-item">
+              <h4>Color Palette</h4>
+              <p>Beige Light (#e6dfd7), Stark Charcoal, and Crimson Wine (#9C3D45).</p>
+            </div>
+            <div class="branding-row__spec-item">
+              <h4>Typography</h4>
+              <p>Inter in varying font weights, keeping a structured layout.</p>
+            </div>
+            <div class="branding-row__spec-item">
+              <h4>Design Thinking</h4>
+              <p>Maximum legibility at small sizes, ensuring clean application on cardboard boxes.</p>
+            </div>
+            <div class="branding-row__spec-item">
+              <h4>Process</h4>
+              <p>Geometric grids, 3D product mockup checks, and high-contrast color validation.</p>
+            </div>
+          </div>
+        </div>
+        <div class="branding-row__visuals">
+          <div class="branding-row__main-logo">
+            <img src="pic/image 57(1).png" alt="Packaging Box Brand Mark" />
+          </div>
+          <div class="branding-row__collage">
+            <div class="branding-row__collage-item"><img src="pic/image 64.png" alt="Cardboard Box Mockup" /></div>
+            <div class="branding-row__collage-item"><img src="pic/image 67 (1).png" alt="Branded Envelope Layout" /></div>
+            <div class="branding-row__collage-item"><img src="pic/image 55.png" alt="Branded Bag Details" /></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BRAND 3 -->
+      <div class="branding-row scroll-reveal">
+        <div class="branding-row__visuals">
+          <div class="branding-row__main-logo">
+            <img src="pic/3rd.png" alt="Bespoke Creative Mark" />
+          </div>
+          <div class="branding-row__collage">
+            <div class="branding-row__collage-item"><img src="pic/image 69.png" alt="Poster branding application" /></div>
+            <div class="branding-row__collage-item"><img src="pic/image 70.png" alt="Digital Device UI Mark" /></div>
+            <div class="branding-row__collage-item"><img src="pic/image 58.png" alt="Stationery Layout" /></div>
+          </div>
+        </div>
+        <div class="branding-row__details">
+          <h3>03 / Bespoke Creative System</h3>
+          <p class="branding-row__text">
+            For this identity, the focus was to represent multi-dimensional design practices (UI, branding, and
+            graphics). The mark utilizes clean overlapping abstract shapes to create depth. The identity functions as a
+            dynamic system that shifts colors depending on the context, while keeping the core structural lines
+            recognizable.
+          </p>
+          <div class="branding-row__specs">
+            <div class="branding-row__spec-item">
+              <h4>Color Palette</h4>
+              <p>Stark Ink black (#000000), Pure White, and warm terracotta accents.</p>
+            </div>
+            <div class="branding-row__spec-item">
+              <h4>Typography</h4>
+              <p>Playfair Display for elegant editorial subheads, with Space Mono for tech details.</p>
+            </div>
+            <div class="branding-row__spec-item">
+              <h4>Design Thinking</h4>
+              <p>Visualizing overlap and multi-disciplinary methods through abstract shape unions.</p>
+            </div>
+            <div class="branding-row__spec-item">
+              <h4>Process</h4>
+              <p>Dynamic variable design systems, responsive screens tests, and print collateral review.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ================= FOOTER CTA & SCROLLING MARQUEE ================= -->
+  <section class="footer-cta">
+    <div class="wrap">
+      <p class="footer-cta__label">START A PROJECT</p>
+      <a href="#contact" class="footer-cta__btn">L-E-T-S T-A-L-K.</a>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section class="contact-section" id="contact">
+    <div class="wrap">
+      <div class="contact-card scroll-reveal">
+        <!-- Left: Red/Burgundy Info Panel -->
+        <div class="contact-card__left">
+          <h2 class="contact-card__title">Let's create<br>something<br>timeless.</h2>
+          <div class="contact-card__email-wrap">
+            <a href="mailto:karunya0822@gmail.com" class="contact-card__email">karunya0822@gmail.com</a>
+          </div>
+          <div class="contact-card__socials">
+            <a href="https://github.com/karunyakumar29" target="_blank" rel="noopener">GITHUB</a>
+            <a href="https://www.linkedin.com/in/karunyaharinee/" target="_blank" rel="noopener">LINKEDIN</a>
+          </div>
+        </div>
+
+        <!-- Right: Contact form -->
+        <div class="contact-card__right">
+          <form class="contact-form" id="contactForm">
+            <div class="contact-form__group">
+              <input type="text" id="formName" name="name" class="contact-form__input" placeholder="Your Name" required />
+            </div>
+            <div class="contact-form__group">
+              <input type="email" id="formEmail" name="email" class="contact-form__input" placeholder="Your Email" required />
+            </div>
+            <div class="contact-form__group">
+              <input type="text" id="formSubject" name="subject" class="contact-form__input" placeholder="Subject" required />
+            </div>
+            <div class="contact-form__group">
+              <textarea id="formMessage" name="message" class="contact-form__textarea" placeholder="Tell me about your project" required></textarea>
+            </div>
+            <button type="submit" class="contact-form__submit-new">
+              SEND MESSAGE
+            </button>
+            <p class="contact-form__status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scrolling Marquee -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>AVAILABLE FOR FREELANCE — START A PROJECT — AVAILABLE FOR FREELANCE — START A PROJECT —&nbsp;</span>
+      <span>AVAILABLE FOR FREELANCE — START A PROJECT — AVAILABLE FOR FREELANCE — START A PROJECT —&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ================= SITE FOOTER ================= -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__logo">PORTFOLIO</div>
+      <div class="footer__right">
+        <div class="footer__links">
+          <a href="https://github.com/karunyakumar29" target="_blank" rel="noopener">Github</a>
+          <a href="https://www.linkedin.com/in/karunyaharinee/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <div class="footer__copy">© 2026 DESIGNER PORTFOLIO — ALL RIGHTS RESERVED</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= RESUME MODAL ================= -->
+  <div class="resume-modal" id="resumeModal" aria-hidden="true">
+    <div class="resume-modal__overlay" id="resumeModalOverlay"></div>
+    <div class="resume-modal__container">
+      <button class="resume-modal__close" id="resumeModalClose" aria-label="Close resume">&times;</button>
+      <div class="resume-modal__body">
+        <img src="pic/WhatsApp Image 2026-06-29 at 2.32.55 PM.jpeg" alt="Resume Layout Mockup" class="resume-modal__image" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="Untitled.js"></script>
+</body>
+
+</html>
