@@ -325,30 +325,34 @@ select {
 
 @media (max-width: 768px) {
   .hero {
-    height: auto;
-    min-height: unset;
-    display: block;
+    height: 80vh;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .hero__photo {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-    object-fit: contain;
-    display: block;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%; /* Adjusted to keep face visible */
   }
   
   .hero__content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
     margin-top: 0;
     width: 100%;
   }
 
   .hero__title {
-    font-size: clamp(32px, 12vw, 60px);
+    font-size: clamp(38px, 14vw, 70px);
   }
 }
 
