@@ -339,7 +339,7 @@ select {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center 20%; /* Adjusted to keep face visible */
+    object-position: center;
   }
   
   .hero__content {
