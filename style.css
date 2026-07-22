@@ -323,6 +323,35 @@ select {
   animation: scaleIn 1.2s ease both;
 }
 
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    min-height: unset;
+    display: block;
+  }
+  
+  .hero__photo {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+  
+  .hero__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .hero__title {
+    font-size: clamp(32px, 12vw, 60px);
+  }
+}
+
 /* ==========================================================================
    ABOUT SECTION (REDESIGNED)
    ========================================================================== */
