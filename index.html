@@ -48,7 +48,10 @@
   <!-- ================= HERO SECTION ================= -->
   <section class="hero" id="top">
     <div class="hero__overlay"></div>
-    <img class="hero__photo" src="pic/top.jpg" alt="Hero Background Image" />
+    <picture>
+      <source media="(max-width: 768px)" srcset="pic/mobile.png">
+      <img class="hero__photo" src="pic/top.jpg" alt="Hero Background Image" />
+    </picture>
     <div class="hero__content">
       <div class="hero__eyebrow">UI/UX &amp; Graphic Designer</div>
       <h1 class="hero__title">PORTFOLIO</h1>
