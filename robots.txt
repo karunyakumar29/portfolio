@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://karunyas.vercel.app/sitemap.xml
