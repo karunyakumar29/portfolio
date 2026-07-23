@@ -363,16 +363,24 @@ select {
   display: none;
 }
 
+
 @media (max-width: 768px) {
-  .hero__photo--desktop {
-    display: none;
+  .hero {
+    height: auto;
+    min-height: 100vh;
   }
 
   .hero__photo--mobile {
     display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .hero__photo--desktop {
+    display: none;
   }
 }
-
 /* ==========================================================================
    ABOUT SECTION (REDESIGNED)
    ========================================================================== */
