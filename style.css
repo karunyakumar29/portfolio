@@ -355,6 +355,23 @@ select {
     font-size: clamp(38px, 14vw, 70px);
   }
 }
+.hero__photo--desktop {
+  display: block;
+}
+
+.hero__photo--mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hero__photo--desktop {
+    display: none;
+  }
+
+  .hero__photo--mobile {
+    display: block;
+  }
+}
 
 /* ==========================================================================
    ABOUT SECTION (REDESIGNED)
