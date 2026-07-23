@@ -48,8 +48,10 @@
   <!-- ================= HERO SECTION ================= -->
 
 <section class="hero" id="top(2)">
-  <img class="hero__photo hero__photo--desktop" src="pic/top 1.png" alt="Hero Background Image" />
-  <img class="hero__photo hero__photo--mobile" src="pic/top-mobile.png" alt="Hero Background Image Mobile" />
+  <picture>
+    <source media="(max-width: 768px)" srcset="pic/top-mobile.png">
+    <img class="hero__photo" src="pic/top 1.png" alt="Hero Background Image" />
+  </picture>
   <div class="hero__content">
   </div>
 </section>
