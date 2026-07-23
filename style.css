@@ -263,6 +263,58 @@ select {
 /* ==========================================================================
    HERO SECTION
    ========================================================================== */
+.hero__photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* show desktop image by default, hide mobile image */
+.hero__photo--mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 80vh;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* swap images on mobile */
+  .hero__photo--desktop {
+    display: none;
+  }
+
+  .hero__photo--mobile {
+    display: block;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  .hero__content {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .hero__title {
+    font-size: clamp(38px, 14vw, 70px);
+  }
+}
+
+
+
+
 .hero {
   position: relative;
   height: 100vh;
