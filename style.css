@@ -287,21 +287,9 @@ select {
   z-index: 1;
 }
 
-.hero__photo--mobile {
-  display: none;
-}
-
 @media (max-width: 768px) {
   .hero {
     min-height: 560px;
-  }
-
-  .hero__photo--desktop {
-    display: none;
-  }
-
-  .hero__photo--mobile {
-    display: block;
   }
 
   .hero__content {
